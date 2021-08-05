@@ -4,6 +4,7 @@ This is an example application using AWS SAM and Lambda used in several blog
 pages on our site:
 
 * https://www.cloudmailin.com/blog/building-an-http-api-with-aws-lambda-and-sam
+* https://www.cloudmailin.com/blog/using-typescript-with-aws-lambda.md
 
 ## Important Files:
 
