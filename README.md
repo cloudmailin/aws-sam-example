@@ -1,3 +1,26 @@
+# Example AWS SAM App
+
+This is an example application using AWS SAM and Lambda used in several blog
+pages on our site:
+
+* https://www.cloudmailin.com/blog/building-an-http-api-with-aws-lambda-and-sam
+
+## Important Files:
+
+The interesting parts of the application, described in the blog are:
+
+* [src/hello-from-lambda.js](./src/handlers/hello-from-lambda.js) The Node.js
+  code for our actual Lambda function
+* [events/name.json](./events/name.json) The sample event we'll pass into the
+  Lambda function before we connect it to the Web with API Gateway
+* [template.yml](./template.yml) - The CloudFormation template that describes the
+  application in AWS infrastructure
+
+
+The application is derived from an AWS Sample Template and the original README
+is as follows:
+
+
 # sam-app
 
 This project contains source code and supporting files for a serverless application that you can deploy with the AWS Serverless Application Model (AWS SAM) command line interface (CLI). It includes the following files and folders:
